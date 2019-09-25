@@ -11,4 +11,5 @@ int main()
     db++;
     }
     cout<<db<<endl;
+    return 0;
 }
