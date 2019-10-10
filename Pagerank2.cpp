@@ -4,7 +4,7 @@
 #include <iostream>          //0.272727
 using namespace std;         //0.090909
 
-void kiir(double tomb[],int db)
+void kiir(vector<double> tomb,int db)
 {
 	for(int i=0;i<db;i++)
 	{cout<<tomb[i]<<" ";}
@@ -12,7 +12,7 @@ void kiir(double tomb[],int db)
 
 }
 
-double tavolsag(double PR[], double PRv[], int n)
+double tavolsag(vector<double> PR, vector<double> PRv, int n)
 {
 	int i;
 	double distance=0;
