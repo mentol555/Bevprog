@@ -7,9 +7,7 @@ int main()
     int a,b;
     cout<<"a=";cin>>a;
     cout<<"\nb=";cin>>b;
-    a=a-b;
-    b=b+a;
-    a=b-a;
-    cout<<"\na="<<a<<" b="<<b;
+    std::swap(a,b);
+    cout<<"a="<<a<<" b="<<b<<endl;
     return 0;
 }
